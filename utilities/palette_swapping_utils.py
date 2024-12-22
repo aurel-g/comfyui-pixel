@@ -8,7 +8,7 @@ import deltae
 import torch
 import kornia
 from tqdm import tqdm
-from correction_utils import (
+from .correction_utils import (
     brightness_correction_michelson,
     contrast_correction_michelson,
     contrast_correction_std,
@@ -19,8 +19,7 @@ from correction_utils import (
 )
 import torch_utils
 import skimage
-import palette_swapping_utils
-import scale_utils
+from .scale_utils import *
 from PIL import Image
 from itertools import product
 from PIL import ImageDraw

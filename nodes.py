@@ -1,6 +1,6 @@
 from .comfy_annotations import ComfyFunc, ImageTensor, NumberInput, Choice
 from .utilities.scale_utils import oe_downscale, downscale
-from .utilities.quantization_utils import palette_quantization, palette_swap
+from .utilities.quantization_utils import palette_quantization
 from .utilities.torch_utils import tensor2pil, pil2tensor
 from .utilities.palette_swapping_utils import palette_swap
 

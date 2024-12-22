@@ -24,7 +24,7 @@ from sklearn.cluster import (
     OPTICS,
     SpectralClustering,
 )
-from correction_utils import (
+from .correction_utils import (
     brightness_correction_michelson,
     brightness_correction_std,
     contrast_correction_michelson,

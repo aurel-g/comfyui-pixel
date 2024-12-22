@@ -4,7 +4,7 @@ import numpy as np
 from itertools import product
 import cv2
 
-from oe_utils import outline_expansion, match_color
+from .oe_utils import outline_expansion, match_color
 
 
 def k_centroid(image: Image, downscale_factor: int, centroids=2) -> Image:
