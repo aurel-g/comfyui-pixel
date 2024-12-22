@@ -1,0 +1,7 @@
+opencv-python
+kmedoids
+deltae
+torch_utils
+scikit-learn
+scikit-image
+colour 
